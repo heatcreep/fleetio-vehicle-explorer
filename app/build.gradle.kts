@@ -69,35 +69,50 @@ fun getEnvironmentVariable(key: String): String? {
 
 dependencies {
 
+    // AndroidX
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
-    implementation(platform(libs.androidx.compose.bom))
-    implementation(libs.androidx.compose.material.icons.extended)
-    implementation(libs.androidx.hilt.compose)
+    implementation(libs.androidx.material3)
+    implementation(libs.androidx.paging.runtime)
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
-    implementation(libs.androidx.material3)
-    implementation(libs.androidx.paging.runtime)
-    implementation(libs.androidx.paging.compose)
-    implementation(libs.coil.compose)
-    implementation(libs.coil.network.okhttp)
-    implementation(libs.kotlin.serialization.json)
-    implementation(libs.retrofit)
-    implementation(libs.retrofit.serialization.converter)
-    implementation(libs.hilt.android)
-    testImplementation(libs.androidx.paging.testing.android)
-    testImplementation(libs.kotlinx.coroutines.test)
-    testImplementation(libs.androidx.paging.testing.android)
-    compileOnly(libs.ksp.gradlePlugin)
-    ksp(libs.hilt.compiler)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
-    androidTestImplementation(platform(libs.androidx.compose.bom))
-    androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // AndroidX Compose
+    implementation(platform(libs.androidx.compose.bom))
+    implementation(libs.androidx.compose.material.icons.extended)
+    implementation(libs.androidx.paging.compose)
+    implementation(libs.androidx.hilt.compose)
+
+    // Coil
+    implementation(libs.coil.compose)
+    implementation(libs.coil.network.okhttp)
     debugImplementation(libs.coil.test)
+
+    // Kotlin
+    implementation(libs.kotlin.serialization.json)
+
+    // KSP
+    compileOnly(libs.ksp.gradlePlugin)
+
+    // Hilt
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.compiler)
+
+    // Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.serialization.converter)
+
+    // Testing
+    testImplementation(libs.androidx.paging.testing.android)
+    testImplementation(libs.junit)
+    testImplementation(libs.kotlinx.coroutines.test)
+
+    androidTestImplementation(platform(libs.androidx.compose.bom))
+    androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.ui.test.junit4)
 }

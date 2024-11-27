@@ -1,27 +1,34 @@
 <resources>
+    <!-- App Name -->
     <string name="app_name">Fleetio Vehicle Explorer</string>
-    <string name="label_vehicle_info_license_plate">License Plate #: %1$s</string>
-    <string name="chip_label_vehicle_filters_status">Status (%1$s)</string>
-    <string name="label_vehicle_filters_status">Vehicle Status</string>
-    <string name="cd_vehicle_filters_status">Vehicle Status</string>
-    <string name="cd_vehicle_filters_sort_vehicles">Sort Vehicles</string>
-    <string name="label_vehicle_filters_sort">Sort</string>
-    <string name="cd_vehicle_filters_type">Type</string>
-    <string name="chip_label_vehicle_filters_type">Type (%1$s)</string>
-    <string name="label_vehicle_filters_type">Vehicle Type</string>
-    <string name="label_vehicle_filters_apply">Apply Filters</string>
-    <string name="error_generic_message">Oops! Something went wrong, please refresh or try again later.</string>
-    <string name="label_vehicle_details_mileage">Mileage</string>
-    <string name="label_vehicle_details_secondary_meter">Secondary Meter Readout</string>
-    <string name="label_vehicle_details_vin">VIN/SN</string>
-    <string name="label_vehicle_details_license_plate">License Plate</string>
-    <string name="label_vehicle_sort">Sort By:</string>
-    <string name="cd_icon_secondary_meter_readout">Secondary Meter Readout</string>
-    <string name="cd_icon_vin">VIN</string>
-    <string name="label_vehicle_details_driver_info">Driver Info</string>
-    <string name="cd_image_driver_image">Driver Image</string>
+    <!-- Titles -->
     <string name="title_screen_vehicle_details">Vehicle Details</string>
+    <!-- Buttons -->
+    <string name="button_label_retry">Retry</string>
+    <string name="button_label_vehicle_filters_apply">Apply Filters</string>
+    <!-- Content Descriptions -->
     <string name="cd_icon_back">Go Back</string>
     <string name="cd_icon_primary_meter_readout">Primary Meter Readout</string>
-    <string name="button_label_retry">Retry</string>
+    <string name="cd_icon_secondary_meter_readout">Secondary Meter Readout</string>
+    <string name="cd_icon_vin">VIN</string>
+    <string name="cd_image_driver_image">Driver Image</string>
+    <string name="cd_vehicle_filters_status">Vehicle Status</string>
+    <string name="cd_vehicle_filters_sort_vehicles">Sort Vehicles</string>
+    <string name="cd_vehicle_filters_type">Type</string>
+    <!-- Chip Labels -->
+    <string name="chip_label_vehicle_filters_type">Type (%1$s)</string>
+    <string name="chip_label_vehicle_filters_sort">Sort</string>
+    <string name="chip_label_vehicle_filters_status">Status (%1$s)</string>
+    <!-- Labels -->
+    <string name="label_vehicle_details_mileage">Mileage</string>
+    <string name="label_vehicle_details_driver_info">Driver Info</string>
+    <string name="label_vehicle_details_license_plate">License Plate</string>
+    <string name="label_vehicle_details_secondary_meter">Secondary Meter Readout</string>
+    <string name="label_vehicle_details_vin">VIN/SN</string>
+    <string name="label_vehicle_filters_status">Vehicle Status</string>
+    <string name="label_vehicle_filters_type">Vehicle Type</string>
+    <string name="label_vehicle_info_license_plate">License Plate #: %1$s</string>
+    <string name="label_vehicle_sort">Sort By:</string>
+    <!-- Errors -->
+    <string name="error_generic_message">Oops! Something went wrong, please refresh or try again later.</string>
 </resources>

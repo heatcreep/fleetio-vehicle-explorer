@@ -131,7 +131,7 @@ fun StatusFiltersBottomSheet(
                     shape = RoundedCornerShape(8.dp),
                     onClick = onDismiss
                 ) {
-                    Text(text = stringResource(R.string.label_vehicle_filters_apply))
+                    Text(text = stringResource(R.string.button_label_vehicle_filters_apply))
                 }
             }
         }

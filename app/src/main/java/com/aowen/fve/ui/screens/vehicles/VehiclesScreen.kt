@@ -99,7 +99,7 @@ fun VehiclesScreen(
                 item {
                     AssistChip(
                         onClick = { openSortingBottomSheet = true },
-                        label = { Text(text = stringResource(R.string.label_vehicle_filters_sort)) },
+                        label = { Text(text = stringResource(R.string.chip_label_vehicle_filters_sort)) },
                         leadingIcon = {
                             Icon(
                                 imageVector = Icons.AutoMirrored.Outlined.Sort,
